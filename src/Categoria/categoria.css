@@ -1,0 +1,33 @@
+.categoria{
+    display: flex;
+    align-items: start;
+    padding: 50px;
+    
+}
+.categoria__enlaces{
+    
+    width: 20%;
+}
+.categoria__tarjetas{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.categoria__titulo{
+    display: flex;
+    border: 1px solid rgba(128, 0, 128, 0.398);
+    padding: 15px 0px 0px 20px;
+
+}
+.categoria__titulo h1{
+    font-size: 50px;
+    color: purple;
+}
+.container__modal__agregar{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-right: 30px;
+}

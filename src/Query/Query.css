@@ -1,0 +1,10 @@
+.categoria__tarjetas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  
+}
+.container__tarjeta{
+    height: 400px ;
+    width:200px ;
+}
