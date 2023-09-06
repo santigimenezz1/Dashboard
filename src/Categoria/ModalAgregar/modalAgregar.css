@@ -33,5 +33,6 @@
 }
 
 .container__modal{
-    height: 540px;
+    height: auto;
+    width: 500px;
 }

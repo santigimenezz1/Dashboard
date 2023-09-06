@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import '../ModalEditar/modalEditar.css';
-import { TextField } from '@mui/material';
+import { TextField, MenuItem } from '@mui/material';
 import { useFormik } from 'formik';
 import { addDoc, collection, doc, updateDoc } from 'firebase/firestore';
 import { db } from '../../FirebaseConfig';
@@ -114,8 +114,8 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
               <TextField onChange={handleChange} name='caracteristica2' className='input' id="outlined-basic" label="Caracteristica2" variant="outlined" />
               <TextField onChange={handleChange} name='stock' className='input' id="outlined-basic" label="Stock" variant="outlined" />
               <TextField onChange={handleChange} name='precio' className='input' id="outlined-basic" label="Precio" variant="outlined" />
-              <TextField onChange={handleChange} name='categoria' className='input' id="outlined-basic" label="Categoria" variant="outlined" />
-              <div className='container__boton__agregar'>
+             
+                          <div className='container__boton__agregar'>
                 <button type='submit' className='tarjeta__modal__producto__form__button'>Agregar</button>
               </div>
             </form>
