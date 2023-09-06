@@ -51,3 +51,14 @@
 .tarjeta__modal__producto__form__button:hover{
     background-color: rgb(149, 19, 149);
 }
+
+.button__agregarProductoEditar{
+   color: white;
+   background-color: purple;
+   width: 100px;
+   height: 40px;
+   padding: 10px;
+   border-radius: 4px;
+   border: none;
+   cursor: pointer;
+}

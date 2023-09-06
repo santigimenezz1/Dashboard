@@ -7,13 +7,13 @@
 .categoria__enlaces{
     
     width: 20%;
+   display: none;
 }
 .categoria__tarjetas{
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 30px;
     
-
 }
 .categoria__titulo{
     display: flex;
@@ -30,4 +30,15 @@
     width: 100%;
     justify-content: end;
     padding-right: 30px;
+}
+
+
+.container__responsive__accordion{
+    margin: 30px;
+    border: 3px solid purple;
+    
+   
+}
+.container__enlaces__responsive{
+    width: 100%;
 }

@@ -2,15 +2,16 @@ import { collection, deleteDoc, doc, getDocs, query, where } from "firebase/fire
 import EnlacesCategoria from "./EnlacesCategoria/EnlacesCategoria"
 import { useEffect, useState } from "react";
 import { db } from "../FirebaseConfig";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import TarjetaHoverCategoria from "./TarjetaCategoria/TarjetaCategoria";
 import '../Categoria/categoria.css'
 import ModalAgregar from "./ModalAgregar/ModalAgregar";
 import ModalEditar from "./ModalEditar/ModalEditar";
 import CrearImagen from "./CrearImagen/CrearImagen";
 import CloudinaryUploader from "./CrearImagen/CrearImagen";
-import AcordionCategorias from "./EnlacesResponsive/EnlacesResponsive";
 import AgregarImagen from "./AgregarImagen/AgregarImagen";
+import BasicAccordion from "./EnlacesResponsive/EnlacesResponsive";
+import '../Query/Query.css'
 
 const Categoria = () => {
   const [data, setData] = useState([]);
@@ -58,8 +59,11 @@ const Categoria = () => {
   return (
     <>
       <div className="categoria__titulo">
-        <h1>Dashboard</h1>
-      </div>
+        <Link style={{textDecoration:"none"}} to={'/'}> <h1>Dashboard</h1></Link>
+        </div>
+        <div className="container__responsive__accordion">
+        <BasicAccordion />
+        </div>
       <div className="container__modal__agregar">
         <ModalAgregar obtenerDatosActualizados={obtenerDatosActualizados} />
       </div>

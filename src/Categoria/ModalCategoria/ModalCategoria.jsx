@@ -9,6 +9,7 @@ import { collection, deleteDoc, doc, getDocs, query, where } from "firebase/fire
 import { useEffect, useState } from "react";
 import { db } from '../../FirebaseConfig';
 import Swal from 'sweetalert2';
+import AcordionCategorias from '../EnlacesResponsive/EnlacesResponsive';
 
 
 const style = {
@@ -64,20 +65,20 @@ export default function ModalCategoria( {titulo, subtitulo, nombreBoton,  produc
       >
         <Fade in={open}>
           <div className='container-modal'  >
-            <Typography style={{textAlign:"center"}} id="transition-modal-title" variant="h6" component="h2">
+            <Typography className='modalCategoria__titulo' style={{textAlign:"center"}} id="transition-modal-title" variant="h6" component="h2">
               {titulo}
             </Typography>
-            <Typography style={{fontSize:"15px"}} id="transition-modal-description" sx={{ mt: 2 }}>
+            <Typography className='modalCategoria__subtitulo' style={{fontSize:"15px"}} id="transition-modal-description" sx={{ mt: 2 }}>
               {subtitulo}
             </Typography>
             <div className='modal__botones'>
             <div >
             <div onClick={()=>eliminar(producto.id)}>
-            <button >Aceptar</button>
+            <button className='modal__botones__eliminar' >Aceptar</button>
             </div>
             </div>
             <div onClick={()=>handleClose()}>
-            <button>Cancelar</button>
+            <button className='modal__botones__eliminar'>Cancelar</button>
             </div>
             </div>
 

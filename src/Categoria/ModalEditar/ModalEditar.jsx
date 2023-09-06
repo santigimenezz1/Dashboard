@@ -82,7 +82,7 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
   return (
     <>
       <div>
-        <button className='button__agregarProducto' onClick={handleOpen}>Editar</button>
+        <button className='button__agregarProductoEditar' onClick={handleOpen}>Editar</button>
         <Modal
           open={open}
           onClose={handleClose}
