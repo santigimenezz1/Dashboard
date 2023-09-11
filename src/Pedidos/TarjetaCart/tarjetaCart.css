@@ -1,0 +1,23 @@
+.container__tarjetaCart{
+    display: flex;
+    width: 95%;
+    border: 1px solid rgb(128, 0, 128);
+    padding: 10px;
+    align-items: center;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.813);
+    font-size: 14px;
+    margin: 10px;
+    
+}
+.imagen__tarjetaCart{
+    width: 80px;
+    height: 100%;
+}
+.container__text__cart{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+.button__Eliminar{
+   border:none;
+   border-radius: 4px;
+   color: white;
+   background-color: purple;
+}
+.button__modalEliminar:hover{
+    border:none;
+    border-radius: 4px;
+    color: white;
+    background-color: purple;
+ }
+ .container__button__acecptarCancelar{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ .container__button__acecptarCancelar button{
+    border:none;
+    border-radius: 4px;
+    color: white;
+    background-color: purple;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+ }

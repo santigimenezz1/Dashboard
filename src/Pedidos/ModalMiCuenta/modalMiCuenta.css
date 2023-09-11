@@ -1,0 +1,37 @@
+
+.container__datosCliente h1{
+  color: rgba(0, 0, 0, 0.824) ;
+  font-size: 25px;
+
+}
+.container__datosCliente h2{
+  color: purple;
+  font-size: 35px;
+
+}
+  .container__tarjeta__pedidos{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(128, 0, 128, 0.605);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 15px;
+  }
+  .container__botones__pedidos{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    gap: 10px;
+  }
+  .button__eliminarPeido{
+    border-radius: 4px;
+    color: white;
+    background-color: purple;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }

@@ -5,6 +5,7 @@ import { db } from './FirebaseConfig'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import '../src/Query/Query.css'
 import Categoria from './Categoria/Categoria'
+import Pedidos from './Pedidos/Pedidos'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Routes>
     <Route  path={"/"} element={<Categoria />}  /> 
     <Route  path={"/categoria/:categoria"} element={<Categoria />}  /> 
+    <Route  path={"/pedidos"} element={<Pedidos />}  /> 
     </Routes>
     </BrowserRouter>
   )

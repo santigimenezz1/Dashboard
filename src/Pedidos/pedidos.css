@@ -1,0 +1,13 @@
+.container__pedidos{
+    width: 100%;
+    height: auto;
+}
+.container__pedidos__tarjetas{
+    width: 100%;
+    padding: 20px;
+}
+.titulo__pedidos{
+    padding: 20px;
+    font-size: 60px;
+    color: rgba(107, 7, 107, 0.796);
+}

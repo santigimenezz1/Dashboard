@@ -60,6 +60,7 @@ const Categoria = () => {
     <>
       <div className="categoria__titulo">
         <Link style={{textDecoration:"none"}} to={'/'}> <h1>Dashboard</h1></Link>
+        <Link to={'/pedidos'}><button className="button__pedidos__categoria">Pedidos</button></Link>
         </div>
         <div className="container__responsive__accordion">
         <BasicAccordion />

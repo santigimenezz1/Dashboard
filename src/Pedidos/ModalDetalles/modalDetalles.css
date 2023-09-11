@@ -1,0 +1,28 @@
+.button__verDetalles{
+    border: 1px solid purple;
+    color: black;
+    width: 130px;
+}
+.container__detalle{
+    overflow-y: scroll;
+}
+
+.container__detalle__pedido{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px; /* Asumiendo que se trata de píxeles */
+    background-color: #f8f8f8; /* Cambié bgcolor a background-color */
+    border: 2px solid #000;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3); /* Agregué valores para el sombreado */
+    padding: 16px; /* En lugar de p: 4 */
+   
+}
+.container__tarjetas__detalles{
+    width: 100%;
+    height: 400px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
