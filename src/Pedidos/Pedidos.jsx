@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ModalMiCuenta from './ModalMiCuenta/ModalMiCuenta';
 import '../Pedidos/pedidos.css';
 import { db } from '../FirebaseConfig';
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 import {
   collection,
@@ -13,6 +14,7 @@ import {
   onSnapshot, // Importa onSnapshot para escuchar cambios en tiempo real
 } from 'firebase/firestore';
 import TarjetaModal from './TarjetaModal/TarjetaModal';
+import { Link } from 'react-router-dom';
 
 const Pedidos = () => {
   const [pedido, setPedido] = useState([]);
@@ -74,6 +76,9 @@ const Pedidos = () => {
     <div className="container__pedidos">
       <div className="container__pedidos__titulo">
         <h1 className="titulo__pedidos">Tus pedidos</h1>
+        <Link to={'/'}>
+        <KeyboardBackspaceIcon fontSize='large' />
+        </Link>
       </div>
       <div className="container__pedidos__tarjetas">
         {pedido.length > 0 &&

@@ -11,3 +11,9 @@
     font-size: 60px;
     color: rgba(107, 7, 107, 0.796);
 }
+.container__pedidos__titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}

@@ -45,7 +45,7 @@ export default function ModalEliminar( {eliminarOrden, pedido} ) {
           </Typography>
           <div className='container__button__acecptarCancelar'>
           <button onClick={()=>eliminar(pedido.id)}>Aceptar</button>
-          <button>Cancelar</button>
+          <button onClick={()=>handleClose()}>Cancelar</button>
           </div>
 
         </Box>
