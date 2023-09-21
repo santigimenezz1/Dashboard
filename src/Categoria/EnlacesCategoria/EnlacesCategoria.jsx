@@ -17,6 +17,7 @@ const EnlacesCategoria = () => {
               <Link className='link' to={"/categoria/frutasDesecadas"} >frutas desecadas</Link >
               <Link className='link' to={"/categoria/cereales"} >cereales</Link >
               <Link className='link' to={"/categoria/granola"} >granola</Link >
+              
 
             </ul>
         </div>

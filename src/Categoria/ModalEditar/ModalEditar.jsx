@@ -89,16 +89,16 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <div className='container__modal' >
+          <div className='container__modalEditar' >
             <Typography style={{ textAlign: "center" }} id="modal-modal-title" variant="h6" component="h2">
               Agregar producto
             </Typography>
             <div style={{ display: "flex", width: "100%", justifyContent: "center", gap: "30px" }}>
-              <div>
+              <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
                 <h1 className='nombre_input_file'>Imagen principal</h1>
                 <AgregarImagen setUrlImagen={setUrlImagen} urlImagen={urlImagen} /> {/* Pasa la función para actualizar la URL */}
               </div>
-              <div>
+              <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
                 <h1 className='nombre_input_file'>Imagen Secundaria</h1>
                 <AgregarImagenSecundaria setUrlImagenSecundaria={setUrlImagenSecundaria} urlImagenSecundaria={urlImagenSecundaria} /> {/* Pasa la función para actualizar la URL */}
               </div>

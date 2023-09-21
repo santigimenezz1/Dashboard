@@ -93,16 +93,16 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <div className="container__modal">
+          <div className="container__modalEditar">
             <Typography style={{ textAlign: 'center' }} id="modal-modal-title" variant="h6" component="h2">
               Agregar producto
             </Typography>
             <div style={{ display: 'flex', width: '100%', justifyContent: 'center', gap: '30px' }}>
-              <div>
+              <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
                 <h1 className="nombre_input_file">Imagen principal</h1>
                 <AgregarImagen setUrlImagen={setUrlImagen} urlImagen={urlImagen} />
               </div>
-              <div>
+              <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
                 <h1 className="nombre_input_file">Imagen Secundaria</h1>
                 <AgregarImagenSecundaria setUrlImagenSecundaria={setUrlImagenSecundaria} urlImagenSecundaria={urlImagenSecundaria} />
               </div>
@@ -180,16 +180,32 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
 >
   <MenuItem style={{color:"purple"}} value="semillas">Semillas</MenuItem>
   <MenuItem style={{color:"purple"}} value="cereales">Cereales</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
-  <MenuItem style={{color:"purple"}} value="yogurt">Yogurt</MenuItem>
+  <MenuItem style={{color:"purple"}} value="frutos-secos">frutos-secos</MenuItem>
+  <MenuItem style={{color:"purple"}} value="frutas-desecadas">frutas-desecadas</MenuItem>
+  <MenuItem style={{color:"purple"}} value="granola">granola</MenuItem>
+  <MenuItem style={{color:"purple"}} value="legumbres-arroz">legumbres-arroz</MenuItem>
+  <MenuItem style={{color:"purple"}} value="salados">salados</MenuItem>
+  <MenuItem style={{color:"purple"}} value="sales">sales</MenuItem>
+  <MenuItem style={{color:"purple"}} value="hierbas">hierbas</MenuItem>
+  <MenuItem style={{color:"purple"}} value="pastas-mani">pastas-mani</MenuItem>
+  <MenuItem style={{color:"purple"}} value="harina-avenas">harina-avenas</MenuItem>
+  <MenuItem style={{color:"purple"}} value="reposteria">reposteria</MenuItem>
+  <MenuItem style={{color:"purple"}} value="tostadas-galletas-arroz">tostadas-galletas-arroz</MenuItem>
+  <MenuItem style={{color:"purple"}} value="galletitas-sin-sal">galletitas-sin-sal</MenuItem>
+  <MenuItem style={{color:"purple"}} value="yerbas">yerbas</MenuItem>
+  <MenuItem style={{color:"purple"}} value="barritas-golisonas-veggie">barritas-golisonas-veggie</MenuItem>
+  <MenuItem style={{color:"purple"}} value="productos-proteicos">productos-proteicos</MenuItem>
+  <MenuItem style={{color:"purple"}} value="heladera">heladera</MenuItem>
+  <MenuItem style={{color:"purple"}} value="snacks-sin-taac">snacks-sin-taac</MenuItem>
+  <MenuItem style={{color:"purple"}} value="alfajores-golosinas-sin-azucar">alfajores-golosinas-sin-azucar</MenuItem>
+  <MenuItem style={{color:"purple"}} value="alfajores-barritas-golosinas-sin-taac">alfajores-barritas-golosinas-sin-taac</MenuItem>
+  <MenuItem style={{color:"purple"}} value="galletitas-sin-azucar">galletitas-sin-azucar</MenuItem>
+  <MenuItem style={{color:"purple"}} value="galletitas-sin-taac">galletitas-sin-taac</MenuItem>
+  <MenuItem style={{color:"purple"}} value="alfajores-golosinas-sin-azucar">alfajores-golosinas-sin-azucar</MenuItem>
+  <MenuItem style={{color:"purple"}} value="leches-vegetales">leches-vegetales</MenuItem>
+  <MenuItem style={{color:"purple"}} value="miel">miel</MenuItem>
+  
+
 
 </TextField>
               <div className="container__boton__agregar">

@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 900px){
 .categoria__tarjetas{
-    justify-content: end;
+    justify-content: center;
     gap: 30px;
     
 }

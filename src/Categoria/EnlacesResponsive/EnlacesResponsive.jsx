@@ -30,37 +30,102 @@ export default function BasicAccordion() {
             <div className='enlacesCategoria__enlaces'>
               <div>
                 <ul>
-                  <Link className='link' to={"/categoria/semillas"} onClick={handleAccordionClick}>
-                    <li>semillas</li>
-                  </Link>
-                  <Link className='link' to={"/categoria/frutosSecos"} onClick={handleAccordionClick}>
-                    <li>frutos secos</li>
-                  </Link>
-                  <Link className='link' to={"/categoria/frutasDesecadas"} onClick={handleAccordionClick}>
-                    <li>frutas desecadas</li>
-                  </Link>
-                  {/* Agrega más enlaces aquí */}
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <Link className='link' to={"/categoria/legumbresArroz"} onClick={handleAccordionClick}>
-                    <li>legumbres y arroz</li>
-                  </Link>
-                  <Link className='link' to={"/categoria/salados"} onClick={handleAccordionClick}>
-                    <li>salados</li>
-                  </Link>
-                  {/* Agrega más enlaces aquí */}
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <Link className='link' to={"/categoria/aceites"} onClick={handleAccordionClick}>
-                    <li>Aceites</li>
-                  </Link>
-                  <Link className='link' to={"/categoria/bebidas"} onClick={handleAccordionClick}>
-                    <li>Bebidas</li>
-                  </Link>
+                <Link className="link" to={"/categoria/semillas"}>
+                <li>semillas</li>
+              </Link>
+              <Link className="link" to={"/categoria/frutos-secos"}>
+                frutos secos
+              </Link>
+              <Link className="link" to={"/categoria/frutas-desecadas"}>
+                frutas desecadas
+              </Link>
+              <Link className="link" to={"/categoria/cereales"}>
+                cereales
+              </Link>
+              <Link className="link" to={"/categoria/granola"}>
+                granola
+              </Link>
+            </ul>
+          </div>
+
+          <div>
+            <h1>Dulce</h1>
+            <ul>
+              <Link className="link" to={"/categoria/legumbres-arroz"}>
+                legumbres y arroz
+              </Link>
+              <Link className="link" to={"/categoria/salados"}>
+                salados
+              </Link>
+              <Link className="link" to={"/categoria/sales"}>
+                sales
+              </Link>
+              <Link className="link" to={"/categoria/hierbas"}>
+                hierbas
+              </Link>
+              <Link className="link" to={"/categoria/pastas-mani"}>
+                pastas de mani
+              </Link>
+              <Link className="link" to={"/categoria/harina-avenas"}>
+                harinas y Avenas
+              </Link>
+              <Link className="link" to={"/categoria/reposteria"}>
+                Reposteria
+              </Link>
+              <Link className="link" to={"/categoria/tostadas-galletas-arroz"}>
+                Tostadas y Galletas de arroz
+              </Link>
+              <Link className="link" to={"/categoria/galletitas-sin-sal"}>
+                Galletitas sin sal
+              </Link>
+              <Link className="link" to={"/categoria/yerbas"}>
+                Yerbas
+              </Link>
+              <Link className="link" to={"/categoria/galletitas"}>
+                Galletitas
+              </Link>
+              <Link className="link" to={"/categoria/barritas-golisonas-veggie"}>
+              barritas-golisonas-veggie
+              </Link>
+              <Link className="link" to={"/categoria/alfajores-barritas-golisonas-veggie"}>
+              alfajores-barritas-golisonas-veggie
+              </Link>
+              <Link className="link" to={"/categoria/productos-proteicos"}>
+              Productos-proteicos
+              </Link>
+              <Link className="link" to={"/categoria/heladera"}>
+              Heladera
+              </Link>
+            </ul>
+          </div>
+          <div>
+            <h1>Infaltable</h1>
+            <ul>
+              <Link className="link" to={"/categoria/snacks-sin-taac"}>
+              Snacks-sin-taac
+              </Link>
+              <Link className="link" to={"/categoria/alfajores-golosinas-sin-azucar"}>
+              Alfajores-golosinas-sin-azucar
+              </Link>
+              <Link className="link" to={"/categoria/alfajores-barritas-golosinas-sin-taac"}>
+              Alfajores-barritas-golosinas-sin-taac
+              </Link>
+              <Link className="link" to={"/categoria/galletitas-sin-azucar"}>
+              Galletitas-sin-azucar
+              </Link>
+              <Link className="link" to={"/categoria/galletitas-sin-taac"}>
+              Galletitas-sin-taac
+              </Link>
+              <Link className="link" to={"/categoria/alfajores-golosinas-sin-azucar"}>
+              Alfajores-golosinas-sin-azucar
+              </Link>
+
+              <Link className="link" to={"/categoria/leches-vegetales"}>
+                Leches vegetales
+              </Link>
+              <Link className="link" to={"/categoria/miel"}>
+                Miel
+              </Link>
                   {/* Agrega más enlaces aquí */}
                 </ul>
               </div>
