@@ -6,18 +6,7 @@ import Modal from '@mui/material/Modal';
 import '../ModalDetalles/modalDetalles.css'
 import TarjetaCart from '../TarjetaCart/TarjetaCart';
 
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 800,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 4,
-  overflowY:"scroll"
-};
+
 
 export default function ModalDetalles( {pedido} ) {
   const [open, setOpen] = React.useState(false);
@@ -34,7 +23,7 @@ export default function ModalDetalles( {pedido} ) {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <div className='container__detalle__pedido'  sx={style}>
+        <div className='container__detalle__pedido'  >
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Detalle del pedido
           </Typography>

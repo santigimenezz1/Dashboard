@@ -30,19 +30,19 @@ export default function BasicAccordion() {
             <div className='enlacesCategoria__enlaces'>
               <div>
                 <ul>
-                <Link className="link" to={"/categoria/semillas"}>
+                <Link onClick={()=>setIsAccordionOpen(false)}  className="link" to={"/categoria/semillas"}>
                 <li>semillas</li>
               </Link>
-              <Link className="link" to={"/categoria/frutos-secos"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/frutos-secos"}>
                 frutos secos
               </Link>
-              <Link className="link" to={"/categoria/frutas-desecadas"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/frutas-desecadas"}>
                 frutas desecadas
               </Link>
-              <Link className="link" to={"/categoria/cereales"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/cereales"}>
                 cereales
               </Link>
-              <Link className="link" to={"/categoria/granola"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/granola"}>
                 granola
               </Link>
             </ul>
@@ -51,49 +51,49 @@ export default function BasicAccordion() {
           <div>
             <h1>Dulce</h1>
             <ul>
-              <Link className="link" to={"/categoria/legumbres-arroz"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/legumbres-arroz"}>
                 legumbres y arroz
               </Link>
-              <Link className="link" to={"/categoria/salados"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/salados"}>
                 salados
               </Link>
-              <Link className="link" to={"/categoria/sales"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/sales"}>
                 sales
               </Link>
-              <Link className="link" to={"/categoria/hierbas"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/hierbas"}>
                 hierbas
               </Link>
-              <Link className="link" to={"/categoria/pastas-mani"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/pastas-mani"}>
                 pastas de mani
               </Link>
-              <Link className="link" to={"/categoria/harina-avenas"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/harina-avenas"}>
                 harinas y Avenas
               </Link>
-              <Link className="link" to={"/categoria/reposteria"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/reposteria"}>
                 Reposteria
               </Link>
-              <Link className="link" to={"/categoria/tostadas-galletas-arroz"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/tostadas-galletas-arroz"}>
                 Tostadas y Galletas de arroz
               </Link>
-              <Link className="link" to={"/categoria/galletitas-sin-sal"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/galletitas-sin-sal"}>
                 Galletitas sin sal
               </Link>
-              <Link className="link" to={"/categoria/yerbas"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/yerbas"}>
                 Yerbas
               </Link>
-              <Link className="link" to={"/categoria/galletitas"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/galletitas"}>
                 Galletitas
               </Link>
-              <Link className="link" to={"/categoria/barritas-golisonas-veggie"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/barritas-golisonas-veggie"}>
               barritas-golisonas-veggie
               </Link>
-              <Link className="link" to={"/categoria/alfajores-barritas-golisonas-veggie"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/alfajores-barritas-golisonas-veggie"}>
               alfajores-barritas-golisonas-veggie
               </Link>
-              <Link className="link" to={"/categoria/productos-proteicos"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/productos-proteicos"}>
               Productos-proteicos
               </Link>
-              <Link className="link" to={"/categoria/heladera"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/heladera"}>
               Heladera
               </Link>
             </ul>
@@ -101,29 +101,29 @@ export default function BasicAccordion() {
           <div>
             <h1>Infaltable</h1>
             <ul>
-              <Link className="link" to={"/categoria/snacks-sin-taac"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/snacks-sin-taac"}>
               Snacks-sin-taac
               </Link>
-              <Link className="link" to={"/categoria/alfajores-golosinas-sin-azucar"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/alfajores-golosinas-sin-azucar"}>
               Alfajores-golosinas-sin-azucar
               </Link>
-              <Link className="link" to={"/categoria/alfajores-barritas-golosinas-sin-taac"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/alfajores-barritas-golosinas-sin-taac"}>
               Alfajores-barritas-golosinas-sin-taac
               </Link>
-              <Link className="link" to={"/categoria/galletitas-sin-azucar"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/galletitas-sin-azucar"}>
               Galletitas-sin-azucar
               </Link>
-              <Link className="link" to={"/categoria/galletitas-sin-taac"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/galletitas-sin-taac"}>
               Galletitas-sin-taac
               </Link>
-              <Link className="link" to={"/categoria/alfajores-golosinas-sin-azucar"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/alfajores-golosinas-sin-azucar"}>
               Alfajores-golosinas-sin-azucar
               </Link>
 
-              <Link className="link" to={"/categoria/leches-vegetales"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/leches-vegetales"}>
                 Leches vegetales
               </Link>
-              <Link className="link" to={"/categoria/miel"}>
+              <Link onClick={()=>setIsAccordionOpen(false)} className="link" to={"/categoria/miel"}>
                 Miel
               </Link>
                   {/* Agrega más enlaces aquí */}
