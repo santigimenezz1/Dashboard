@@ -9,7 +9,7 @@
 .titulo__pedidos{
     padding: 20px;
     font-size: 60px;
-    color: rgba(107, 7, 107, 0.796);
+    color: white;
 }
 .container__pedidos__titulo{
     display: flex;

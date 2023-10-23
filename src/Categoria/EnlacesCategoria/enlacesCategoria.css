@@ -3,7 +3,6 @@
     height: auto;
     padding-top: 20px;
     padding-left: 10px;
-    
 
 }
 .enalcesCategoria__form{
@@ -27,6 +26,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.enlacesCategoria__enlaces::placeholder{
+    background-color: red;
 }
 .enlacesCategoria__enlaces h1{
     font-size: 20px;

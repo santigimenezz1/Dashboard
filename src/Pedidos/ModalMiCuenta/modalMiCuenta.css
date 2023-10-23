@@ -1,18 +1,19 @@
 
 .container__datosCliente h1{
-  color: rgba(0, 0, 0, 0.824) ;
+  color: white ;
   font-size: 25px;
 
 }
+
 .container__datosCliente h2{
-  color: purple;
+  color: white;
   font-size: 35px;
 
 }
   .container__tarjeta__pedidos{
     width: 100%;
     height: auto;
-    border: 1px solid rgba(128, 0, 128, 0.605);
+    border: 1px solid white;
     border-radius: 4px;
     padding: 20px;
     margin: 15px;
