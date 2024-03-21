@@ -5,9 +5,9 @@
     transform: translate(-50%, -50%);
     width: 410px;
     height: 610px;
-    border: 7px solid red;
     padding: 20px;
     background-color: rgb(255, 255, 255);
+    border: 10px solid purple;
 }
 .container__modal__imagen{
     width: 100px;
@@ -73,7 +73,7 @@
         transform: translate(-50%, -50%);
         width: 380px;
         height: 610px;
-        border: 7px solid red;
+        border: 10px solid purple;
         padding: 20px;
         background-color: rgb(255, 255, 255);
     }

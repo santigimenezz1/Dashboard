@@ -13,10 +13,11 @@
   .container__tarjeta__pedidos{
     width: 100%;
     height: auto;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 4px;
     padding: 20px;
     margin: 15px;
+    background-color: rgba(128, 0, 128, 0.92);
   }
   .container__botones__pedidos{
     width: 100%;

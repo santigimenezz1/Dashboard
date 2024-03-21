@@ -59,7 +59,11 @@ const Categoria = () => {
   return (
     <>
       <div className="categoria__titulo">
-        <Link style={{textDecoration:"none"}} to={'/'}> <h1>Dashboard</h1></Link>
+        <div className="container__logo">
+        <img style={{width:"80px", height:"80px"}} src="https://res.cloudinary.com/dcf9eqqgt/image/upload/v1711023601/Isologo_c_1_wfgygq_yilkjv.png"></img>
+        <Link style={{textDecoration:"none"}} to={'/'}> <h1>Dashboard Cascanueces</h1></Link>
+
+        </div>
         <Link to={'/pedidos'}><button className="button__pedidos__categoria">Pedidos</button></Link>
         </div>
         <div className="container__responsive__accordion">
