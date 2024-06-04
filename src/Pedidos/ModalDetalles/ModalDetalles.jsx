@@ -16,7 +16,7 @@ export default function ModalDetalles( {pedido} ) {
   
   return (
     <div>
-      <Button style={{color:"white", backgroundColor:"purple"}} className='button__verDetalles' onClick={handleOpen}>Ver detalles</Button>
+      <Button style={{color:"rgb(80, 182, 185)", backgroundColor:"white", fontFamily:"Nunito"}} className='button__verDetalles' onClick={handleOpen}>Ver detalles</Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -41,7 +41,7 @@ export default function ModalDetalles( {pedido} ) {
           }
           </div>
           </Typography>
-          <h1 style={{textAlign:"center", padding:"10px", borderTop:"1px solid rgba(128, 0, 128, 0.68)",  margin:"30px 0px 30px 0px", color:"rgba(0, 0, 0, 0.813)"}}>Total del pedido: <span style={{color:"purple"}}>$25.000</span> </h1>
+          <h1 style={{textAlign:"center", padding:"10px", borderTop:"1px solid rgba(128, 0, 128, 0.68)",  margin:"30px 0px 30px 0px", color:"rgba(0, 0, 0, 0.813)"}}>Total del pedido: <span style={{color:"rgb(66, 159, 163)"}}>$25.000</span> </h1>
         </div>
       </Modal>
     </div>

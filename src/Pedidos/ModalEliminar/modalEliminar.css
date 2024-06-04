@@ -2,13 +2,13 @@
    border:none;
    border-radius: 4px;
    color: white;
-   background-color: purple;
+   background-color: rgb(80, 182, 185);
 }
 .button__modalEliminar:hover{
     border:none;
     border-radius: 4px;
     color: white;
-    background-color: purple;
+    background-color: rgb(80, 182, 185);
  }
  .container__button__acecptarCancelar{
     width: 100%;
@@ -21,7 +21,7 @@
     border:none;
     border-radius: 4px;
     color: white;
-    background-color: purple;
+    background-color: rgb(80, 182, 185);
     width: 120px;
     height: 35px;
     cursor: pointer;

@@ -23,7 +23,7 @@ export default function BasicAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography style={{color:"black"}}>Categorias</Typography>
+          <Typography style={{color:"black", fontFamily:"Nunito"}}>Categorias</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

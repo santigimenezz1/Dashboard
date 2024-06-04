@@ -9,7 +9,9 @@
 .titulo__pedidos{
     padding: 20px;
     font-size: 60px;
-    color: black;
+    color: rgb(80, 182, 185);
+    font-family: 'Covered By Your Grace', cursive;;
+
 }
 .container__pedidos__titulo{
     display: flex;

@@ -90,16 +90,16 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
           aria-describedby="modal-modal-description"
         >
           <div className='container__modalEditar' >
-            <Typography style={{ textAlign: "center" }} id="modal-modal-title" variant="h6" component="h2">
+            <Typography style={{fontFamily:"Nunito", fontSize:"30px", textAlign:"center", color:"rgb(80, 182, 185)"}} id="modal-modal-title" variant="h6" component="h2">
               Agregar producto
             </Typography>
             <div style={{ display: "flex", width: "100%", justifyContent: "center", gap: "30px" }}>
               <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-                <h1 className='nombre_input_file'>Imagen principal</h1>
+                <h1 style={{fontFamily:"Nunito", fontSize:"18px", color:"rgb(80, 182, 185)", fontWeight:"bold"}} className='nombre_input_file'>Imagen principal</h1>
                 <AgregarImagen setUrlImagen={setUrlImagen} urlImagen={urlImagen} /> {/* Pasa la función para actualizar la URL */}
               </div>
               <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-                <h1 className='nombre_input_file'>Imagen Secundaria</h1>
+                <h1 style={{fontFamily:"Nunito", fontSize:"18px", color:"rgb(80, 182, 185)", fontWeight:"bold"}} className='nombre_input_file'>Imagen Secundaria</h1>
                 <AgregarImagenSecundaria setUrlImagenSecundaria={setUrlImagenSecundaria} urlImagenSecundaria={urlImagenSecundaria} /> {/* Pasa la función para actualizar la URL */}
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function ModalAgregar({ producto, obtenerDatosActualizados }) {
               <TextField onChange={handleChange} name='precio' className='input' id="outlined-basic" label="Precio" variant="outlined" />
              
                           <div className='container__boton__agregar'>
-                <button type='submit' className='tarjeta__modal__producto__form__button'>Agregar</button>
+                <button style={{fontFamily:"Nunito", fontSize:"18px", color:"rgb(80, 182, 185)", fontWeight:"bold", backgroundColor:"rgb(80, 182, 185)", color:"white"}} type='submit' className='tarjeta__modal__producto__form__button'>Agregar</button>
               </div>
             </form>
           </div>

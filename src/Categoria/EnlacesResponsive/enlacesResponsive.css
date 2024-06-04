@@ -1,4 +1,10 @@
 .accordion__display{
     display: none;
 }
+.link{
+    font-size: 20px;
+}
 
+.link:hover{
+    color: rgb(80, 182, 185);
+}

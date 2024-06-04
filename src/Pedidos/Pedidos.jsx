@@ -77,7 +77,7 @@ const Pedidos = () => {
       <div className="container__pedidos__titulo">
         <h1 className="titulo__pedidos">Tus pedidos</h1>
         <Link to={'/'}>
-        <KeyboardBackspaceIcon fontSize='large' />
+        <KeyboardBackspaceIcon fontSize='large' style={{color:"rgb(80, 182, 185)"}} />
         </Link>
       </div>
       <div className="container__pedidos__tarjetas">

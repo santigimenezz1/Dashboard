@@ -1,5 +1,5 @@
 .input__suibirImagen{
-    border: 1px solid purple;
+    border: 1px solid rgb(80, 182, 185);
     width: 120px;
     height: 120px;
     border-radius: 4px;
@@ -10,10 +10,11 @@
     flex-direction: column;
     width: 120px;
     gap: 5px;
+    
 }
 .button__agregarImagen{
     color: white;
-    background-color: purple;
+    background-color: rgb(80, 182, 185);
     height: 20px;
     border: none;
     border-radius: 2px;

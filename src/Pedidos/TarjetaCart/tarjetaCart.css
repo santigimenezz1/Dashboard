@@ -1,13 +1,14 @@
 .container__tarjetaCart{
     display: flex;
     width: 95%;
-    border: 3px solid rgb(128, 0, 128);
+    border: 5px solid rgb(66, 159, 163);
     padding: 10px;
     align-items: center;
     border-radius: 4px;
     color: rgba(0, 0, 0, 0.813);
     font-size: 14px;
     margin: 10px;
+    font-family: "Nunito";
     
 }
 .imagen__tarjetaCart{

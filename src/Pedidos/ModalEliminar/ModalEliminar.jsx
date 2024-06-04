@@ -29,7 +29,7 @@ export default function ModalEliminar( {eliminarOrden, pedido} ) {
 
   return (
     <div>
-      <Button style={{color:"white", backgroundColor:"purple"}} className='button__Eliminar' onClick={handleOpen}>Eliminar pedido</Button>
+      <Button style={{color:"rgb(80, 182, 185)", backgroundColor:"white", fontFamily:"Nunito"}} className='button__Eliminar' onClick={handleOpen}>Eliminar pedido</Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -37,10 +37,10 @@ export default function ModalEliminar( {eliminarOrden, pedido} ) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography style={{textAlign:"center"}} id="modal-modal-title" variant="h6" component="h2">
+          <Typography style={{textAlign:"center", fontFamily:"Nunito", fontSize:"30px", color:"rgb(80, 182, 185)"}} id="modal-modal-title" variant="h6" component="h2">
             Aviso
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <Typography style={{fontFamily:"Nunito"}} id="modal-modal-description" sx={{ mt: 2 }}>
             ¿Seguro que quieres eliminar este pedido?
           </Typography>
           <div className='container__button__acecptarCancelar'>
